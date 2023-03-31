@@ -29,8 +29,8 @@ $enable-responsive-spacings: false !default;
 // Enable a centered viewport for <header>, <main>, <footer> inside <body>
 // Fluid layout until it reaches a defined size, then becomes a centered viewport
 $enable-maxwidth: true !default;
-$mw:60% !default;// max-width
-$mb:1200px !default;// value at which to switch from fluid layout to using max-width
+$mw:68% !default;// max-width
+$mb:600px !default;// value at which to switch from fluid layout to using max-width
 
 // Enable a centered viewport for <header>, <main>, <footer> inside <body>
 // This option will only work if $enable-maxwidth: false
@@ -89,7 +89,7 @@ $icon-twitch: true !default;
 $icon-youtube: true !default;
 $icon-researchgate: true !default;
 
-$icon-x: true !default;// x symbol
+$icon-x: false !default;// x symbol
 $icon-search: true !default;//search
 $icon-adjust: true !default;//theme switcher
 $icon-angll: true !default;//first page
@@ -99,7 +99,7 @@ $icon-angrr: true !default;//last page
 $icon-angu: true !default;//back to top
 
 $icon-ffolder: false !default;
-$icon-folder: false !default;// categories folder
+$icon-folder: true !default;// categories folder
 $icon-ftag: false !default;
 $icon-tag: false !default;// tag
 $icon-check: false !default;// check mark
@@ -131,7 +131,7 @@ $icon-sun: false !default;// light sun
   --lh: 1.5; //line-height
   --lhh: 1.2; //line-height headers
   --fw: 400; //font-weight
-  --fh: 700; //font-weight h1-h6
+  --fh: 600; //font-weight h1-h6
 
   // Responsive typography
   @if $enable-responsive-typography {
