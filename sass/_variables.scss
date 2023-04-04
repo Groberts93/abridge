@@ -130,8 +130,8 @@ $icon-sun: false !default;// light sun
   --fs: 1rem; //font-size
   --lh: 1.5; //line-height
   --lhh: 1.2; //line-height headers
-  --fw: 400; //font-weight
-  --fh: 600; //font-weight h1-h6
+  --fw: 300; //font-weight
+  --fh: 500; //font-weight h1-h6
 
   // Responsive typography
   @if $enable-responsive-typography {
